@@ -8,7 +8,7 @@ type KeyboardProps = {
     disabled?: boolean
 }
 
-export function Keyboard({ activeLetters, inactiveLetters, addGuessedLetter, disabled = false }: KeyboardProps) {
+export default function Keyboard({ activeLetters, inactiveLetters, addGuessedLetter, disabled = false }: KeyboardProps) {
     return (
         <div
             style={{

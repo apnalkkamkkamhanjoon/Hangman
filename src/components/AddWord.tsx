@@ -1,4 +1,4 @@
-export function AddWordInput() {
+export default function AddWordInput() {
     return (
         <>
             <input style={{ width: '200px', height: '50px', fontSize: '2rem' }} />

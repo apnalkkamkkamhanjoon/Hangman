@@ -4,7 +4,7 @@ type HangmanDrawingTypes = {
     numberOfGuesses: number
 }
 
-export function HangmanDrawing({ numberOfGuesses }: HangmanDrawingTypes) {
+export default function HangmanDrawing({ numberOfGuesses }: HangmanDrawingTypes) {
     return (
         <div style={{ position: 'relative' }}>
             {BODY_PARTS.slice(0, numberOfGuesses)}
