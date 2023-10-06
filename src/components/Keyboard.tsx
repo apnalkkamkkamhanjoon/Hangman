@@ -1,4 +1,4 @@
-import styles from './css/Keyboard.module.css'
+import styles from '../styles/Keyboard.module.css'
 import { KEYS } from '../assets/KEYS'
 
 type KeyboardProps = {
@@ -13,8 +13,8 @@ export default function Keyboard({ activeLetters, inactiveLetters, addGuessedLet
         <div
             style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(75px, 1fr))",
-                gap: ".5rem",
+                gridTemplateColumns: "repeat(auto-fit, minmax(65px, 1fr))",
+                gap: ".5rem"
             }}
         >
             {KEYS.map(key => {
