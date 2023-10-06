@@ -21,7 +21,8 @@ export default function HangmanWord({ guessedLetters, wordToGuess, reveal = fals
                     <span style={{
                         visibility: guessedLetters.includes(letter) || reveal ?
                             'visible' : 'hidden', color: !guessedLetters.includes(letter)
-                                && reveal ? 'red' : 'black'
+                                && reveal ? 'red' : 'black',
+                        fontSize: '4rem'
                     }}>{letter}</span>
                 </span>
             ))}
