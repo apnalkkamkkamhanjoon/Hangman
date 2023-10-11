@@ -5,10 +5,10 @@ const Voca = () => {
 
     return (
         <div>
-            {words.map((a, index) => {
+            {words.map((word, index) => {
                 return (
                     <li key={index} style={{ fontSize: '2rem' }}>
-                        {a}
+                        {word}
                     </li>
                 )
             })}
