@@ -5,6 +5,7 @@ const Word = () => {
     return (
         <>
             <C.MainPageBtn />
+            <C.Voca />
         </>
     );
 };
