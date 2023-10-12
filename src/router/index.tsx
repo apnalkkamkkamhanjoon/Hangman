@@ -8,6 +8,8 @@ export function Router() {
             <Route path="/hangman" element={<P.Hangman />} />
             <Route path="/input" element={<P.Input />} />
             <Route path="/word" element={<P.Word />} />
+            <Route path="/menu" element={<P.Menu />} />
+            <Route path="/rank" element={<P.Rank />} />
         </Routes>
     )
 }

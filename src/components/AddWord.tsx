@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react"
-import words from '../assets/wordList.json'
+import { useState } from "react";
+import words from '../assets/wordList.json';
 
 export default function AddWordInput() {
     const [word, setWord] = useState("");
