@@ -1,5 +1,6 @@
 import { useState } from "react";
 import words from '../assets/wordList.json';
+import { toast } from "react-toastify";
 
 export default function AddWordInput() {
     const [word, setWord] = useState("");
@@ -7,6 +8,7 @@ export default function AddWordInput() {
     const handleAddWord = () => {
         words.push(word)
         setWord("");
+        toast.success('등록 됨 단어장 가보셈')
     };
 
     return (
