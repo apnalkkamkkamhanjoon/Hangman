@@ -1,2 +1,2 @@
 # Hangman
-행맨행맨
+[행맨](https://hangmangsm.netlify.app/)
